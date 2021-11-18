@@ -1,0 +1,214 @@
+.page-title {
+    font-family:'Cairo';
+    font-style: italic; 
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background: rgb(37, 7, 173);
+    position: relative;
+    margin-bottom: 2%;
+}
+
+/*--CART--*/
+
+.cart.title .fa.fa-shopping-cart{
+    position: relative;
+    top: 20%;
+    transform: translateY(-20%);
+}
+
+.cart-container{
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+
+.cart-container .cart{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+}
+
+.cart-title{
+    font-family:'Cairo';
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+    width: 100%
+}
+
+.cart ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.cart ul li {
+    max-width: 80%;
+    max-height: 280px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.cart ul li .product-grid-tile-container{
+    max-width: 100%;
+    max-height: 250px; 
+}
+
+.cart ul li .product-tile {
+    cursor: pointer;
+    padding: 1rem 1rem 30px;
+    margin-bottom: 38px;
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+
+.cart ul li .image-container {
+    max-height: 150px;
+    max-width: 80%;
+}
+
+.cart ul li .tile-image{
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-user-drag: none; 
+    user-select: none; 
+    -webkit-user-drag: none;
+}
+
+.cart ul li .product-price{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cart ul li .product-tile-header{
+    font-size: 16px;
+}
+
+.cart ul li .star-rating-container{
+    position: absolute;
+}
+
+.cart ul li .fa.fa-star{
+    color:rgb(161, 161, 161);
+    font-size: 18px; 
+}
+
+.cart ul li .fa.fa-star.checked{
+    color: black;
+    font-size: 18px;
+}
+
+.product-quantity{
+    float:left;
+    font-size: 20px;
+    font-family:'Cairo';
+    font-style: italic;
+}
+
+.sub-total{
+    font-size: 20px;
+    font-family:'Cairo';
+    font-style: italic;
+}
+
+.cart .tax{
+    font-size: 25px;
+    font-family:'Cairo';
+    font-style: italic;
+    position: absolute;
+    bottom: 40px;
+}
+
+.cart .total{
+    font-size: 25px;
+    font-family:'Cairo';
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+}
+
+/*--PRODUCTS--*/
+
+.products {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product-grid-tile-container{
+    max-width: 280px;
+    max-height: 475px;
+}
+
+li {
+    max-width: 20%;
+    text-align: center;
+    list-style-type: none;
+}
+
+.product-tile {
+    cursor: pointer;
+    padding: 1rem 1rem 30px;
+    margin-bottom: 38px;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.products .product-tile:hover {
+    background: #fff;
+    z-index: 2;
+    box-shadow: 0 5px 15px 5px rgba(4, 32, 156, 0.493);
+}
+
+.image-container {
+    height: 325px;
+    width: auto;
+}
+
+.tile-body{ 
+    text-align: left;
+}
+
+.tile-image{
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-user-drag: none; 
+    user-select: none; 
+    -webkit-user-drag: none;
+}
+
+.product-price{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.product-tile-header{
+    font-size: 20px;
+}
+
+.star-rating-container{
+    position: absolute;
+}
+
+.fa.fa-star{
+    color:rgb(161, 161, 161);
+    font-size: 20px; 
+}
+
+.fa.fa-star.checked{
+    color: black;
+    font-size: 20px;
+}
+
+
