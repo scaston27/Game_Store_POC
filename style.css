@@ -65,6 +65,7 @@ table {
 
 .subtotal-label{
     font-size: 1.5vw;
+    font-weight: bold;
     font-family:'Cairo';
     font-style: italic;
     text-align: left;
@@ -72,6 +73,7 @@ table {
 
 .tax-label{
     font-size: 1.5vw;
+    font-weight: bold;
     font-family:'Cairo';
     font-style: italic;
     text-align: left;
@@ -79,6 +81,7 @@ table {
 
 .total-label{
     font-size: 1.5vw;
+    font-weight: bold;
     font-family:'Cairo';
     font-style: italic;
     text-align: left;
@@ -104,7 +107,7 @@ table {
     font-family:'Cairo';
     font-style: italic;
     text-align: center;
-    font-size: 40px;
+    font-size: 2vw;
     width: 100%;
     height: auto;
 }
